@@ -1,16 +1,21 @@
 import React from 'react'
-import Card from './card/Card'
+import CardList from './card/CardList'
+import GameMode from './GameMode'
 import './Container.css'
 import { connect } from "react-redux";
 
 class Container extends React.Component {
   render() {
-    const { cards } = this.props
+    const { gameMode } = this.props
 
     return (
       <div className="container">
         <div className="row">
-          {cards.map((card, index) => <Card key={index} index={index} card={card} handleClick={this.showCard} />)}
+          {!gameMode ? (
+            <GameMode />
+          ) : (
+            <CardList />
+          )}
         </div>
       </div>
     )
@@ -18,7 +23,7 @@ class Container extends React.Component {
 }
 
 const mapStateToProps = state => ({
-  cards: state.store.cards
+  gameMode: state.store.gameMode
 })
 
 export default connect(mapStateToProps)(Container);

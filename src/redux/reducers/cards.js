@@ -1,11 +1,12 @@
-import { FLIP_CARD, RESET_FLIPPED_CARDS, UNFLIP_CARDS } from "../actionTypes";
+import { FLIP_CARD, RESET_FLIPPED_CARDS, UNFLIP_CARDS, SET_GAME_MODE } from "../actionTypes";
 import { shuffle } from '../../utils'
-import { easy } from '../../cards.js'
+import { easy, hard } from '../../cards.js'
 
 const initialState = {
-  cards: shuffle(easy),
+  cards: [],
   flippedCards: [],
-  attempts: 0
+  attempts: 0,
+  gameMode: null
 };
 
 export default function(state = initialState, action) {
@@ -33,6 +34,14 @@ export default function(state = initialState, action) {
         flippedCards: [],
         attempts: state.attempts + 1
       };
+    }
+    case SET_GAME_MODE: {
+      const { mode } = action.payload
+      return {
+        ...state,
+        cards: mode === 'easy' ? shuffle(easy) : shuffle(hard),
+        gameMode: mode
+      }
     }
     default:
       return state;

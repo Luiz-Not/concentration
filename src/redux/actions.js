@@ -1,4 +1,4 @@
-import { FLIP_CARD, RESET_FLIPPED_CARDS, UNFLIP_CARDS } from "./actionTypes";
+import { FLIP_CARD, RESET_FLIPPED_CARDS, UNFLIP_CARDS, SET_GAME_MODE } from "./actionTypes";
 import { getCards, getFlippedCards, getAttempts } from "./selectors"
 
 export const flipCard = index => (dispatch, getState) => {
@@ -17,6 +17,13 @@ export const flipCard = index => (dispatch, getState) => {
   })
   dispatch(checkCards())
 }
+
+export const setGameMode = mode => ({
+  type: SET_GAME_MODE,
+  payload: {
+    mode
+  }
+})
 
 const checkCards = () => (dispatch, getState) => {
   const state = getState()
