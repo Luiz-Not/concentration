@@ -1,0 +1,224 @@
+const easy = [{
+	"index": 11,
+	"name": "J",
+	"suit": "diamond",
+	"color": "red",
+	"id": "J-diamond"
+}, {
+	"index": 12,
+	"name": "Q",
+	"suit": "diamond",
+	"color": "red",
+	"id": "Q-diamond"
+}, {
+	"index": 13,
+	"name": "K",
+	"suit": "diamond",
+	"color": "red",
+	"id": "K-diamond"
+}, {
+	"index": 11,
+	"name": "J",
+	"suit": "heart",
+	"color": "red",
+	"id": "J-heart"
+}, {
+	"index": 12,
+	"name": "Q",
+	"suit": "heart",
+	"color": "red",
+	"id": "Q-heart"
+}, {
+	"index": 13,
+	"name": "K",
+	"suit": "heart",
+	"color": "red",
+	"id": "K-heart"
+}, {
+	"index": 11,
+	"name": "J",
+	"suit": "diamond",
+	"color": "red",
+	"id": "J-diamond"
+}, {
+	"index": 12,
+	"name": "Q",
+	"suit": "diamond",
+	"color": "red",
+	"id": "Q-diamond"
+}, {
+	"index": 13,
+	"name": "K",
+	"suit": "diamond",
+	"color": "red",
+	"id": "K-diamond"
+}, {
+	"index": 11,
+	"name": "J",
+	"suit": "heart",
+	"color": "red",
+	"id": "J-heart"
+}, {
+	"index": 12,
+	"name": "Q",
+	"suit": "heart",
+	"color": "red",
+	"id": "Q-heart"
+}, {
+	"index": 13,
+	"name": "K",
+	"suit": "heart",
+	"color": "red",
+	"id": "K-heart"
+}]
+
+const hard = [{
+	"index": 11,
+	"name": "J",
+	"suit": "diamond",
+	"color": "red",
+	"id": "J-diamond"
+}, {
+	"index": 12,
+	"name": "Q",
+	"suit": "diamond",
+	"color": "red",
+	"id": "Q-diamond"
+}, {
+	"index": 13,
+	"name": "K",
+	"suit": "diamond",
+	"color": "red",
+	"id": "K-diamond"
+}, {
+	"index": 11,
+	"name": "J",
+	"suit": "heart",
+	"color": "red",
+	"id": "J-heart"
+}, {
+	"index": 12,
+	"name": "Q",
+	"suit": "heart",
+	"color": "red",
+	"id": "Q-heart"
+}, {
+	"index": 13,
+	"name": "K",
+	"suit": "heart",
+	"color": "red",
+	"id": "K-heart"
+}, {
+	"index": 11,
+	"name": "J",
+	"suit": "club",
+	"color": "black",
+	"id": "J-club"
+}, {
+	"index": 12,
+	"name": "Q",
+	"suit": "club",
+	"color": "black",
+	"id": "Q-club"
+}, {
+	"index": 13,
+	"name": "K",
+	"suit": "club",
+	"color": "black",
+	"id": "K-club"
+}, {
+	"index": 11,
+	"name": "J",
+	"suit": "spade",
+	"color": "black",
+	"id": "J-spade"
+}, {
+	"index": 12,
+	"name": "Q",
+	"suit": "spade",
+	"color": "black",
+	"id": "Q-spade"
+}, {
+	"index": 13,
+	"name": "K",
+	"suit": "spade",
+	"color": "black",
+	"id": "K-spade"
+}, {
+	"index": 11,
+	"name": "J",
+	"suit": "diamond",
+	"color": "red",
+	"id": "J-diamond"
+}, {
+	"index": 12,
+	"name": "Q",
+	"suit": "diamond",
+	"color": "red",
+	"id": "Q-diamond"
+}, {
+	"index": 13,
+	"name": "K",
+	"suit": "diamond",
+	"color": "red",
+	"id": "K-diamond"
+}, {
+	"index": 11,
+	"name": "J",
+	"suit": "heart",
+	"color": "red",
+	"id": "J-heart"
+}, {
+	"index": 12,
+	"name": "Q",
+	"suit": "heart",
+	"color": "red",
+	"id": "Q-heart"
+}, {
+	"index": 13,
+	"name": "K",
+	"suit": "heart",
+	"color": "red",
+	"id": "K-heart"
+}, {
+	"index": 11,
+	"name": "J",
+	"suit": "club",
+	"color": "black",
+	"id": "J-club"
+}, {
+	"index": 12,
+	"name": "Q",
+	"suit": "club",
+	"color": "black",
+	"id": "Q-club"
+}, {
+	"index": 13,
+	"name": "K",
+	"suit": "club",
+	"color": "black",
+	"id": "K-club"
+}, {
+	"index": 11,
+	"name": "J",
+	"suit": "spade",
+	"color": "black",
+	"id": "J-spade"
+}, {
+	"index": 12,
+	"name": "Q",
+	"suit": "spade",
+	"color": "black",
+	"id": "Q-spade"
+}, {
+	"index": 13,
+	"name": "K",
+	"suit": "spade",
+	"color": "black",
+	"id": "K-spade"
+}]
+
+export {
+	easy,
+	hard
+}
